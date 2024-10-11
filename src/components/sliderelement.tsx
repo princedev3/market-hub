@@ -1,6 +1,5 @@
 "use client"
 import {timeLineItems} from '@/libs/constants/data'
-import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 
 const Sliderelement = () => {
