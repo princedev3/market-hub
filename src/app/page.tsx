@@ -1,6 +1,5 @@
 "use client"
 import Car from "@/components/car";
-import Details from "@/components/details";
 import DiscountWeekly from "@/components/discount";
 import Fastmarque from "@/components/fastmarque";
 import Gadget from "@/components/gadget";

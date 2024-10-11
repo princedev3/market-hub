@@ -32,9 +32,8 @@ export default function Sidebar(){
       </div>
     {
      NavbarItems.map(item=>(
-       <div  
+       <div key={item.name} 
        onMouseEnter={() => {setIsHovered(item.name),setIsHoveredState(true)}}
-     
        className={`${item.name===isHovered?"bg-greenColor":""} justify-between flex w-fit lg:w-full items-center mx-auto p-2 rounded-full transition-all duration-500`} >
         <div className='flex gap-4 items-center ' >
           <item.icon size={20} color={isHovered===item.name?"white":"#5e5e5c"} />

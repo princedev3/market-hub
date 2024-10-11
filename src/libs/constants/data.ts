@@ -3,11 +3,9 @@ import Clothes from "@/ui/icons/clothes"
 import Discount from "@/ui/icons/discount"
 import Headset from "@/ui/icons/headset"
 import Organic from "@/ui/icons/organic"
-import Menu from "@/ui/icons/menu"
 import Phone from "@/ui/icons/phone"
 import Shoe from "@/ui/icons/shoe"
-import React from "react"
-import Image from "next/image"
+
 
 export const  NavbarItems = [
  

@@ -2,13 +2,11 @@
 import React from 'react'
 import Sidebar from './sidebar'
 import Navbar from './navbar'
-import { RemoveNullHoverState } from '@/libs/HoverTheme'
 import Footer from './footer'
 import Details from './details'
 
 const LayoutComponent = ({children}:{children:React.ReactNode}) => {
-    const {isHoveredState}= RemoveNullHoverState()
-
+   
   return (
   
     <div>
